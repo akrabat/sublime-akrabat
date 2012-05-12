@@ -1,0 +1,5 @@
+[
+  { "keys": ["ctrl+shift+x"], "command": "tidy_xml" },
+  { "keys": ["ctrl+shift+h"], "command": "tidy_html" },
+  { "keys": ["ctrl+shift+j"], "command": "tidy_json" }
+]

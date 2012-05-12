@@ -1,0 +1,5 @@
+[
+    { "command": "tidy_xml", "args": {}, "caption": "Tidy XML" },
+    { "command": "tidy_json", "args": {}, "caption": "Tidy JSON" },
+    { "command": "tidy_html", "args": {}, "caption": "tidy HTML" }
+]
