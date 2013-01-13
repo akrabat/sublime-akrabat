@@ -11,11 +11,23 @@ Alternatively, select some text and press `shift+cmd+p` and then type `gs` to au
 
 As an example, typing `gs {tab} date_last_updated` will produce:
 
+        /**
+         * Getter for date_last_updated
+         *
+         * @return mixed
+         */
         public function getDateLastUpdated()
         {
             return $this->date_last_updated;
         }
         
+        /**
+         * Setter for date_last_updated
+         *
+         * @param mixed $dateLastUpdated Value to set
+        
+         * @return self
+         */
         public function setDateLastUpdated($dateLastUpdated)
         {
             $this->date_last_updated = $dateLastUpdated;
