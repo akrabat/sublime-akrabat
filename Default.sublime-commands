@@ -2,12 +2,10 @@
     { "command": "tidy_xml", "args": {}, "caption": "Tidy XML" },
     { "command": "tidy_json", "args": {}, "caption": "Tidy JSON" },
     { "command": "tidy_html", "args": {}, "caption": "tidy HTML" },
-    
+
     { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" },
 
     // http://wbond.net/sublime_packages/terminal
     { "command": "open_terminal", "args": {"paths": []}, "caption": "Open Terminal Here" },
     { "command": "open_terminal_project_folder", "args": {"paths": []}, "caption": "Open Terminal at Project Folder" }
-
-
 ]
