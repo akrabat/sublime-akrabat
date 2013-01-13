@@ -1,14 +1,16 @@
 <snippet>
-    <content><![CDATA[public function get${1/(.*)/\u$1/}()
+    <content><![CDATA[public function get${1/(?:^|_)(\w)/\U$1$2/g$1}()
 {
 	return \$this->${1:$SELECTION};
 }
 
-public function set${1/(.*)/\u$1/}(\$$1)
+public function set${1/(?:^|_)(\w)/\U$1$2/g$1}(\$${1/_(\w)/\U$1/g$1})
 {
-	\$this->$1 = \$$1;
-	return \$this;
+    \$this->$1 = \$${1/_(\w)/\U$1/g$1};
+    return \$this;
 }
+
+
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>getset</tabTrigger>
