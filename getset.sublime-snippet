@@ -13,7 +13,7 @@ public function set${1/(?:^|_)(\w)/\U$1$2/g$1}(\$${1/_(\w)/\U$1/g$1})
 
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>getset</tabTrigger>
+    <tabTrigger>gs</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
