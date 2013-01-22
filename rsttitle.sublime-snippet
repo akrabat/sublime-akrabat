@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[${1:$SELECTION}
+${1/./=/g}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>rsttitle</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.restructuredtext</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>RST title</description>
+</snippet>

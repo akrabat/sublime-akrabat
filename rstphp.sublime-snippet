@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[.. code-block:: php
+    :startinline: true]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>php</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.restructuredtext</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>PHP code block</description>
+</snippet>
